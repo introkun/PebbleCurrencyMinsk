@@ -28,9 +28,9 @@ var updateRates = function() {
       var content = "NBRB $:\n" + data.usdNbrb + byrCurrency;
       content += "Bank buys $:\n" + data.usdSell + byrCurrency;
       content += "Bank sells $:\n" + data.usdBuy+ byrCurrency;
-      content += "NBRB €:\n" + data.eurNbrb + byrCurrency;
-      content += "Bank buys €:\n" + data.eurSell + byrCurrency;
-      content += "Bank sells €:\n" + data.eurBuy+ byrCurrency;
+      content += "NBRB EUR:\n" + data.eurNbrb + byrCurrency;
+      content += "Bank buys EUR:\n" + data.eurSell + byrCurrency;
+      content += "Bank sells EUR:\n" + data.eurBuy+ byrCurrency;
       main.body(content);
       Vibe.vibrate('short');
     },
